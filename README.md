@@ -1,5 +1,11 @@
 Please read the following words if it's your first time here~
 ===
+### Preview
+<img src="https://img.gejiba.com/images/7aa6e0f944a3ee055cad5006ac02c692.png" alt="微信图片 20231214164500" border="0">
+<img src="https://img.gejiba.com/images/b158ca68460f01a68db5bf2476b73dff.png" alt="微信图片 20231214164527" border="0">
+<img src="https://img.gejiba.com/images/ca5df1a57e4e1b5880c4e55622bdb1fc.png" alt="微信图片 20231214164534" border="0">
+<img src="https://img.gejiba.com/images/fa5e574af570724fceb170f61e5f66d0.png" alt="微信图片 20231214164610" border="0">
+
 This repository is created for the group project of CAN301 (from Xi'an Jiaotong-Liverpool University) during the first semester of 2023-24 academic year. The name of our group is High Score Please!<br>
 Anyone in our group is free to update the files unmaliciously.<br>
 
