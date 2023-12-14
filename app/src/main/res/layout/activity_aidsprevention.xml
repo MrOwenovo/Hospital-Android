@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    tools:context=".activity.AIDSprevention">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#B5CD00"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="Back"
+        android:elevation="5dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="AIDS prevention"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/prevention"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginBottom="388dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="The following are several ways of transmission of AIDS, scientific prevention is the best way to eliminate AIDS."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/introcard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="521dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="AIDS medical full name is' acquired immunodeficiency syndrome ', is a sexually transmitted disease caused by human immunodeficiency virus (HIV), according to serotype, HIV can be divided into Ӏ type (HIV-1) and type II (HIV-2)."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="182dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/way" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

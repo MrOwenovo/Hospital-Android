@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/sign"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sign"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OnlineInquiryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HealthEducationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MyReservationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.indoormap2"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.Healthtips"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.Adolescenthealth"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.AIDSprevention"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.outdoormap"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.Postoperativerecovery"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

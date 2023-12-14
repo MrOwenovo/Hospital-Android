@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reservation_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="4dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- 医生的照片 -->
+        <ImageView
+            android:id="@+id/doctorImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentStart="true"/>
+
+        <!-- 医生的姓名 -->
+        <TextView
+            android:id="@+id/doctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/doctorImage"
+            android:layout_marginStart="10dp"
+            android:text="Dr. Smith"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <!-- 预约时间 -->
+        <TextView
+            android:id="@+id/appointmentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/doctorName"
+            android:layout_toEndOf="@id/doctorImage"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="9:00 AM - Checkup"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- 科室 -->
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appointmentTime"
+            android:layout_toEndOf="@id/doctorImage"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:text="Neurology Department"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- 删除按钮 -->
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Delete"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

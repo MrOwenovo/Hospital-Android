@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+
+    <ImageView
+        android:layout_width="223dp"
+        android:layout_height="205dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/sign" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#f0f0f0"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Hospital"
+        android:textColor="#235387"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/idnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID:"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <EditText
+        android:id="@+id/psword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:text="RememberPassword" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="#4ea0ec"
+            android:text="Login" />
+
+        <Button
+
+            android:id="@+id/toReg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#4ea0ec"
+            android:text="Register" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

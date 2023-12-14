@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    tools:context=".activity.Healthtips">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#B5CD00"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="Back"
+        android:elevation="5dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/htcard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="516dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="This table covers several important aspects of daily health, including diet, exercise, sleep, hydration, mental health, and regular health check-ups, all of which are key to promoting overall health and well-being."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Health tips"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="420dp"
+        android:layout_height="592dp"
+        android:layout_marginTop="178dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487"
+        app:srcCompat="@drawable/ht" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

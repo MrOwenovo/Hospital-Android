@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--  online_inquiry  -->
+    <color name="background_color">#F7F7F7</color>
+    <color name="button_send_background">#FFEB3B</color>
+    <color name="button_exit_text">#DE000000</color>
+    <color name="text_primary">#DE000000</color>
+    <color name="input_hint">#99000000</color>
+
+<!--  activity main  -->
+    <color name="buttonColor">#FF6F00</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="mainBackgroundColor">#D1C4E9</color>
+    <color name="bottomNavBackgroundColor">#BDBDBD</color>
+    <color name="topBarColor">#304FFE</color>
+
+
+    <color name="blue">#FF6200EE</color>
+
+</resources>

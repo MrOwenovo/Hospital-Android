@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    tools:context=".activity.Adolescenthealth">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#B5CD00"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="Back"
+        android:elevation="5dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Adolescent health"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="369dp"
+        android:layout_height="264dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ah" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/prevention"
+        android:layout_width="407dp"
+        android:layout_height="361dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginBottom="388dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678">
+
+        <TextView
+            android:id="@+id/ways"
+            android:layout_width="wrap_content"
+            android:layout_height="322dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text=" Nutrition: Adolescence is a critical period for growth and development, so they need adequate nutrition. A balanced diet includes vegetables, fruits, whole grains, protein, and moderate amounts of fats.
+Exercise: Adolescents should engage in moderate physical activity every day to maintain a healthy weight, strong muscles, and bones.
+Sleep: Sufficient sleep is crucial for the physical and mental health of adolescents. They typically need 8-10 hours of sleep per night.
+Mental Health: Adolescents often face stress, anxiety, and depression. They need to learn how to manage emotions, seek support, and build healthy coping mechanisms.
+"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

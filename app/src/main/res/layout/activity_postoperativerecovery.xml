@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    tools:context=".activity.Postoperativerecovery">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#B5CD00"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="Back"
+        android:elevation="5dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/toolbarTitle"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Postoperative recovery"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/introcard"
+        android:layout_width="389dp"
+        android:layout_height="616dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="35dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Here are some common post-surgery recovery recommendations for reference:
+Follow Medical Advice: Strictly adhere to your doctor's recommendations and prescribed medications. Do not alter medication dosages or discontinue them without consulting your doctor.
+Rest and Sleep: Adequate rest and sleep are crucial for your body's recovery. Schedule appropriate rest periods as needed.
+Diet: Maintain a balanced diet to facilitate a speedy recovery. Choose appropriate foods according to your doctor's advice and avoid excessive fats and sugars.
+Hydration: Stay adequately hydrated to prevent dehydration. Avoid alcohol or high-caffeine beverages.
+Wound Care: Follow your doctor's instructions for wound care, keeping the wound clean and dry. Avoid using any items on the wound that haven't been approved by your doctor.
+Avoid Physical Activity: Refrain from heavy physical activities and lifting until cleared by your doctor. Gradually reintroduce light exercises such as walking.
+Use Assistive Devices: If necessary, use crutches, walkers, or other assistive devices to aid in walking and maintaining balance.
+ "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

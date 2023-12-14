@@ -1,0 +1,19 @@
+<!-- 示例布局，根据需要调整 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/user_message_bubble">
+
+    <TextView
+        android:id="@+id/tv_bot_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to register for an appointment?" />
+
+    <Button
+        android:id="@+id/special_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+</LinearLayout>

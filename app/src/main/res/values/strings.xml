@@ -1,0 +1,57 @@
+<resources>
+        <string name="app_name">Hospital</string>
+<string name="reservation">Reservation</string>
+    <string name="exit">EXIT</string>
+    <string name="ask_the_doctor">Ask the doctor</string>
+    <string name="a_detailed_description_can_help_to_get_a_full_picture_of_the_condition">A detailed description can help to get a full picture of the condition</string>
+    <string name="send">SEND</string>
+    <string name="logout">Logout</string>
+    <string name="refresh">Refresh</string>
+    <string name="hospital">Hospital</string>
+    <string name="Title">Registration Service</string>
+    <string name="barrier">barrier</string>
+    <string name="me">me</string>
+    <string name="home">home</string>
+    <string name="announcement">Welcome to use the Hospital consultation registration platform, please see the 《Instructions》 for use.</string>
+
+    <string-array name="spinner_time_am">
+        <item>Please Select</item>
+    <item>8:00-8:30</item>
+    <item>8:30-9:00</item>
+    <item>9:00-9:30</item>
+    <item>9:30-10:00</item>
+    <item>10:00-10:30</item>
+    <item>10:30-11:00</item>
+    <item>11:00-11:30</item>
+    <item>11:30-12:00</item>
+</string-array>
+
+<string-array name="department_name">
+    <item>IBSS</item>
+    <item>SAT</item>
+
+
+</string-array>
+
+<string-array name="department1_doctor">
+    <item>Please Select</item>
+    <item>Sophia Brown</item>
+    <item>Ethan Wilson</item>
+    <item>Oliver Williams</item>
+</string-array>
+
+<string-array name="department2_doctor">
+    <item>Jackson Taylor</item>
+    <item>Lucas Smith</item>
+    <item>Lucas Williams</item>
+</string-array>
+
+<string-array name="department3_doctor">
+    <item>Sophia Brown</item>
+    <item>Sophia Miller</item>
+    <item>Oliver Davis</item>
+</string-array>
+
+
+
+</resources>

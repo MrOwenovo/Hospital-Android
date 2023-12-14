@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e5fe">
+
+    <!-- 蓝色卡片背景 -->
+    <View
+        android:id="@+id/blueBackground"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/top" />
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/tvHospitalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/blueBackground"
+        android:text="@string/Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff" />
+
+
+    <ImageView
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50px"
+        android:layout_marginTop="45px"
+        android:layout_marginEnd="28px"
+        android:contentDescription="@string/logout"
+        android:src="@drawable/logout" />
+
+
+    <ImageView
+        android:id="@+id/ivBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20px"
+        android:layout_marginTop="45px"
+        android:layout_marginEnd="64px"
+        android:contentDescription="@string/barrier"
+        android:src="@drawable/barrier" />
+
+    <ImageView
+        android:id="@+id/btn_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45px"
+        android:layout_toStartOf="@id/btn_logout"
+        android:contentDescription="@string/refresh"
+        android:src="@drawable/refresh" />
+
+
+    <!-- 最近公告的白色圆角卡片 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/announcementCard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/blueBackground"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp">
+        <!-- 公告内容 -->
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tvAnnouncement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/announcement"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#a1acf2"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <!-- 横线 -->
+
+
+    <!-- 功能区的大圆角卡片 -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/functionCard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/bottomBar"
+        android:layout_below="@id/announcementCard"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="56dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp">
+
+
+                <ImageButton
+                    android:id="@+id/btn_online_inquiry"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_map"
+                    app:layout_constraintBottom_toTopOf="@+id/btn_health_education"
+                    android:background="@drawable/mian_circle_function_button1"
+                    android:layout_marginBottom="19dp"
+                    android:layout_marginTop="-5dp"
+                    android:src="@drawable/main_inquiry" />
+
+                <TextView
+                    android:id="@+id/tv_online_inquiry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_online_inquiry"
+                    app:layout_constraintStart_toStartOf="@+id/btn_online_inquiry"
+                    app:layout_constraintEnd_toEndOf="@+id/btn_online_inquiry"
+                    android:layout_marginTop="6dp"
+
+                    android:text="Online Inquiry" />
+
+            <ImageButton
+                android:id="@+id/btn_map"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_online_inquiry"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/btn_appoint"
+                android:background="@drawable/mian_circle_function_button2"
+                android:layout_marginBottom="19dp"
+                android:layout_marginTop="-5dp"
+                android:src="@drawable/main_map" />
+
+            <TextView
+                android:id="@+id/tv_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map"
+                app:layout_constraintTop_toBottomOf="@+id/btn_map"
+                app:layout_constraintStart_toStartOf="@+id/btn_map"
+                app:layout_constraintEnd_toEndOf="@+id/btn_map"
+                android:layout_marginTop="6dp" />
+
+            <ImageButton
+                android:id="@+id/btn_health_education"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_online_inquiry"
+                app:layout_constraintEnd_toStartOf="@+id/btn_appoint"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/mian_circle_function_button2"
+                android:src="@drawable/main_health" />
+
+            <TextView
+                android:id="@+id/tv_health_education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health Education"
+                app:layout_constraintTop_toBottomOf="@+id/btn_health_education"
+                app:layout_constraintStart_toStartOf="@+id/btn_health_education"
+                app:layout_constraintEnd_toEndOf="@+id/btn_health_education"
+                android:layout_marginTop="6dp" />
+
+
+
+            <ImageButton
+                android:id="@+id/btn_appoint"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:layout_constraintStart_toEndOf="@+id/btn_health_education"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_map"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/mian_circle_function_button1"
+                android:src="@drawable/main_appointment" />
+
+            <TextView
+                android:id="@+id/tv_appointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment"
+                app:layout_constraintTop_toBottomOf="@+id/btn_appoint"
+                app:layout_constraintStart_toStartOf="@+id/btn_appoint"
+                app:layout_constraintEnd_toEndOf="@+id/btn_appoint"
+                android:layout_marginTop="6dp" />
+
+            <!-- 竖直分隔线 -->
+            <View
+                android:id="@+id/vertical_divider"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="#DDDDDD"
+            app:layout_constraintTop_toTopOf="@+id/btn_online_inquiry"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_health_education"
+            app:layout_constraintStart_toEndOf="@+id/btn_online_inquiry"
+            app:layout_constraintEnd_toStartOf="@+id/btn_map"
+            android:layout_marginTop="-19dp"
+            android:layout_marginBottom="-19dp"/>
+
+            <!-- 水平分隔线 -->
+            <View
+                android:id="@+id/horizontal_divider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#DDDDDD"
+            app:layout_constraintStart_toStartOf="@+id/btn_online_inquiry"
+            app:layout_constraintEnd_toEndOf="@+id/btn_map"
+            app:layout_constraintTop_toBottomOf="@+id/tv_online_inquiry"
+            app:layout_constraintBottom_toTopOf="@+id/btn_health_education"
+            android:layout_marginStart="-156dp"
+            android:layout_marginEnd="-156dp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- 底部的白色横条 -->
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_home"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/main_home_on" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="-17dp"
+                android:text="Home" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_me"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/main_me_off" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="-17dp"
+                android:text="Me" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</RelativeLayout>

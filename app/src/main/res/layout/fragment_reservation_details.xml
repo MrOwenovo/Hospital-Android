@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#d7e4fd"
+  >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:background="@drawable/rounded_white_background"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_appointment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5月20日 13:30"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- 其他 TextView 以显示预约的医生、科室等信息 -->
+            <!-- 示例: -->
+            <TextView
+                android:id="@+id/tv_doctor_name"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约医生：上海市人民医院"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tv_appointment_type"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约科室：神经内科"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tv_description"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约医生：张医生"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约类型：初诊"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="病情描述：发烧、咳嗽"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约时间：5月23日 下午3点"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

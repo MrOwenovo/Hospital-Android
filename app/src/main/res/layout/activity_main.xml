@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e5fe">
+
+
+    <View
+        android:id="@+id/blueBackground"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/top" />
+
+
+    <TextView
+        android:id="@+id/tvHospitalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/blueBackground"
+        android:text="@string/Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff" />
+
+
+    <ImageView
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50px"
+        android:layout_marginTop="45px"
+        android:layout_marginEnd="28px"
+        android:contentDescription="@string/logout"
+        android:src="@drawable/logout" />
+
+
+    <ImageView
+        android:id="@+id/ivBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20px"
+        android:layout_marginTop="45px"
+        android:layout_marginEnd="64px"
+        android:contentDescription="@string/barrier"
+        android:src="@drawable/barrier" />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/announcementCard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/blueBackground"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/tvAnnouncement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/announcement"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#a1acf2"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/functionCard"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_below="@id/announcementCard"
+        android:layout_margin="16dp"
+        android:layout_marginTop="-10dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <GridLayout
+            android:id="@+id/functionLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/btn_appoint"
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/mian_circle_function_button1"
+                    android:src="@drawable/main_appointment" />
+
+                <TextView
+                    android:id="@+id/text_appointment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Appointment"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:paddingLeft="15dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/btn_my_reservation"
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/mian_circle_function_button1"
+                    android:src="@drawable/baseline_assignment_24"
+                    />
+
+                <TextView
+                    android:id="@+id/text_my_reservation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Reservation"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                >
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/btn_online_inquiry"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/mian_circle_function_button2"
+                    android:src="@drawable/main_inquiry"
+                    />
+
+                <TextView
+                    android:id="@+id/text_online_inquiry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Online Inquiry"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/btn_map"
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+
+                    android:background="@drawable/mian_circle_function_button2"
+                    android:src="@drawable/main_map" />
+
+                <TextView
+                    android:id="@+id/text_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Map"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+
+                <ImageButton
+                    android:id="@+id/btn_health_education"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/mian_circle_function_button2"
+                    android:src="@drawable/main_health" />
+
+                <TextView
+                    android:id="@+id/text_health_education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Education"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+
+
+
+
+
+
+        </GridLayout>
+
+
+
+    </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

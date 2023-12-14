@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OnlineInquiryActivity">
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@color/button_exit_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/tv_inquiry_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_the_doctor"
+        android:textColor="@color/text_primary"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/btn_exit"
+        app:layout_constraintStart_toEndOf="@id/btn_exit"/>
+
+    <ListView
+        android:id="@+id/chat_list_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_exit"
+        app:layout_constraintBottom_toTopOf="@id/message_input_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/message_input_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/bg_message_input"
+        android:padding="8dp">
+
+
+
+        <EditText
+            android:id="@+id/et_message_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/a_detailed_description_can_help_to_get_a_full_picture_of_the_condition"
+            android:textColorHint="@color/input_hint"
+            android:background="@drawable/bg_message_input"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/button_send_background"
+            android:text="@string/send"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

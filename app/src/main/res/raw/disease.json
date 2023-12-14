@@ -1,0 +1,863 @@
+[
+    {
+      "clinic": "General Medicine",
+      "diseases": [
+        {
+          "name": "Common Cold",
+          "symptoms": [
+            "Flu-like Symptoms",
+            "Cough",
+            "Sore Throat"
+          ]
+        },
+        {
+          "name": "Flu",
+          "symptoms": [
+            "High Fever",
+            "Cough",
+            "Muscle Pain",
+            "Fatigue"
+          ]
+        },
+        {
+          "name": "Hypertension",
+          "symptoms": [
+            "Headache",
+            "Dizziness",
+            "Blurred Vision"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Pulmonology",
+      "diseases": [
+        {
+          "name": "Asthma",
+          "symptoms": [
+            "Wheezing",
+            "Shortness of Breath",
+            "Chest Tightness"
+          ]
+        },
+        {
+          "name": "Chronic Obstructive Pulmonary Disease",
+          "symptoms": [
+            "Breathing Difficulty",
+            "Cough",
+            "Sputum"
+          ]
+        },
+        {
+          "name": "Lung Cancer",
+          "symptoms": [
+            "Cough",
+            "Sputum",
+            "Chest Pain"
+          ]
+        },
+        {
+          "name": "Emphysema",
+          "symptoms": [
+            "Breathing Difficulty",
+            "Cough",
+            "Sputum"
+          ]
+        },
+        {
+          "name": "Pulmonary Embolism",
+          "symptoms": [
+            "Rapid Breathing",
+            "Chest Pain",
+            "Cough"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Endocrinology",
+      "diseases": [
+        {
+          "name": "Diabetes",
+          "symptoms": [
+            "Excessive Drinking",
+            "Frequent Urination",
+            "Weight Loss"
+          ]
+        },
+        {
+          "name": "Thyroid Problems",
+          "symptoms": [
+            "Fatigue",
+            "Weight Changes",
+            "Neck Swelling"
+          ]
+        },
+        {
+          "name": "Thyroiditis",
+          "symptoms": [
+            "Neck Swelling",
+            "Palpitations",
+            "Anxiety"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Oncology",
+      "diseases": [
+        {
+          "name": "Breast Cancer",
+          "symptoms": [
+            "Breast Lump",
+            "Nipple Discharge",
+            "Skin Changes"
+          ]
+        },
+        {
+          "name": "Prostate Cancer",
+          "symptoms": [
+            "Urination Problems",
+            "Pelvic Pain",
+            "Erectile Dysfunction"
+          ]
+        },
+        {
+          "name": "Leukemia",
+          "symptoms": [
+            "Fatigue",
+            "Easy Bruising",
+            "Frequent Infections"
+          ]
+        },
+        {
+          "name": "Cancer",
+          "symptoms": [
+            "Abnormal Lump",
+            "Weight Loss",
+            "Fatigue"
+          ]
+        },
+        {
+          "name": "Lung Cancer",
+          "symptoms": [
+            "Cough",
+            "Sputum",
+            "Chest Pain"
+          ]
+        },
+        {
+          "name": "Nasopharyngeal Cancer",
+          "symptoms": [
+            "Nasal Congestion",
+            "Sore Throat",
+            "Cough"
+          ]
+        },
+        {
+          "name": "Esophageal Cancer",
+          "symptoms": [
+            "Sore Throat",
+            "Difficulty Swallowing",
+            "Weight Loss"
+          ]
+        },
+        {
+          "name": "Stomach Cancer",
+          "symptoms": [
+            "Upper Abdominal Pain",
+            "Indigestion",
+            "Weight Loss"
+          ]
+        },
+        {
+          "name": "Testicular Cancer",
+          "symptoms": [
+            "Testicular Lump",
+            "Testicular Pain",
+            "Swelling in Scrotum"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Gastroenterology",
+      "diseases": [
+        {
+          "name": "Inflammatory Bowel Disease",
+          "symptoms": [
+            "Abdominal Pain",
+            "Diarrhea",
+            "Bloody Stool"
+          ]
+        },
+        {
+          "name": "Hepatitis C",
+          "symptoms": [
+            "Fatigue",
+            "Jaundice",
+            "Abdominal Pain"
+          ]
+        },
+        {
+          "name": "Esophagitis",
+          "symptoms": [
+            "Sore Throat",
+            "Difficulty Swallowing",
+            "Burning in the Sternum"
+          ]
+        },
+        {
+          "name": "Ulcerative Colitis",
+          "symptoms": [
+            "Abdominal Pain",
+            "Diarrhea",
+            "Bloody Stool"
+          ]
+        },
+        {
+          "name": "Infectious Gastroenteritis",
+          "symptoms": [
+            "Abdominal Pain",
+            "Diarrhea",
+            "Vomiting"
+          ]
+        },
+        {
+          "name": "Gastric Ulcer",
+          "symptoms": [
+            "Upper Abdominal Pain",
+            "Feeling of Fullness",
+            "Nausea"
+          ]
+        },
+        {
+          "name": "Chronic Gastritis",
+          "symptoms": [
+            "Upper Abdominal Pain",
+            "Feeling of Fullness",
+            "Nausea"
+          ]
+        },
+        {
+          "name": "Pancreatitis",
+          "symptoms": [
+            "Abdominal Pain",
+            "Vomiting",
+            "Abdominal Discomfort"
+          ]
+        },
+        {
+          "name": "Cholecystitis",
+          "symptoms": [
+            "Abdominal Pain",
+            "Fever",
+            "Nausea"
+          ]
+        },
+        {
+          "name": "Stomach Cancer",
+          "symptoms": [
+            "Upper Abdominal Pain",
+            "Indigestion",
+            "Weight Loss"
+          ]
+        },
+        {
+          "name": "Esophagitis",
+          "symptoms": [
+            "Sore Throat",
+            "Difficulty Swallowing",
+            "Burning in the Sternum"
+          ]
+        },
+        {
+          "name": "Gastritis",
+          "symptoms": [
+            "Upper Abdominal Pain",
+            "Feeling of Fullness",
+            "Nausea"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Rheumatology",
+      "diseases": [
+        {
+          "name": "Arthritis",
+          "symptoms": [
+            "Joint Pain",
+            "Joint Swelling",
+            "Limited Movement"
+          ]
+        },
+        {
+          "name": "Gout",
+          "symptoms": [
+            "Joint Pain",
+            "Swelling",
+            "Redness"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Nephrology",
+      "diseases": [
+        {
+          "name": "Chronic Kidney Disease",
+          "symptoms": [
+            "Fatigue",
+            "Edema",
+            "Reduced Urination"
+          ]
+        },
+        {
+          "name": "Liver Cirrhosis",
+          "symptoms": [
+            "Ascites",
+            "Jaundice",
+            "Abdominal Pain"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Neurology",
+      "diseases": [
+        {
+          "name": "Multiple Sclerosis",
+          "symptoms": [
+            "Sensory Disturbances",
+            "Muscle Spasms",
+            "Coordination Difficulty"
+          ]
+        },
+        {
+          "name": "Parkinson's Disease",
+          "symptoms": [
+            "Muscle Rigidity",
+            "Tremors",
+            "Reduced Movement"
+          ]
+        },
+        {
+          "name": "Alzheimer's Disease",
+          "symptoms": [
+            "Memory Deterioration",
+            "Cognitive Impairment",
+            "Disorientation"
+          ]
+        },
+        {
+          "name": "Epilepsy",
+          "symptoms": [
+            "Seizures",
+            "Loss of Consciousness",
+            "Transient Amnesia"
+          ]
+        },
+        {
+          "name": "Dementia",
+          "symptoms": [
+            "Memory Loss",
+            "Cognitive Impairment",
+            "Behavioral Abnormalities"
+          ]
+        },
+        {
+          "name": "Migraine",
+          "symptoms": [
+            "Severe Headache",
+            "Nausea",
+            "Light Sensitivity"
+          ]
+        },
+        {
+          "name": "Brain Tumor",
+          "symptoms": [
+            "Headache",
+            "Nausea",
+            "Vomiting"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Dermatology",
+      "diseases": [
+        {
+          "name": "Dermatitis",
+          "symptoms": [
+            "Itchy Skin",
+            "Redness",
+            "Rash"
+          ]
+        },
+        {
+          "name": "Melanoma",
+          "symptoms": [
+            "Irregular Moles",
+            "Change in Mole Size",
+            "Skin Itching"
+          ]
+        },
+        {
+          "name": "Rosacea",
+          "symptoms": [
+            "Facial Redness",
+            "Visible Blood Vessels",
+            "Bumps on the Face"
+          ]
+        },
+        {
+          "name": "Contact Dermatitis",
+          "symptoms": [
+            "Red, Itchy Rash",
+            "Blisters",
+            "Swelling"
+          ]
+        },
+        {
+          "name": "Allergic Rhinitis",
+          "symptoms": [
+            "Runny Nose",
+            "Sneezing",
+            "Nasal Congestion"
+          ]
+        },
+        {
+          "name": "Allergic Dermatitis",
+          "symptoms": [
+            "Itchy Skin",
+            "Redness",
+            "Rash"
+          ]
+        },
+        {
+          "name": "Acne",
+          "symptoms": [
+            "Pimples",
+            "Blackheads",
+            "Whiteheads"
+          ]
+        },
+        {
+          "name": "Psoriasis",
+          "symptoms": [
+            "Red, Scaly Skin Patches",
+            "Itching",
+            "Burning Sensation"
+          ]
+        },
+        {
+          "name": "Eczema",
+          "symptoms": [
+            "Dry, Itchy Skin",
+            "Redness",
+            "Rash"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Hematology",
+      "diseases": [
+        {
+          "name": "Anemia",
+          "symptoms": [
+            "Fatigue",
+            "Pallor",
+            "Palpitations"
+          ]
+        },
+        {
+          "name": "Leukemia",
+          "symptoms": [
+            "Fatigue",
+            "Easy Bruising",
+            "Frequent Infections"
+          ]
+        },
+        {
+          "name": "Hodgkin's Lymphoma",
+          "symptoms": [
+            "Enlarged Lymph Nodes",
+            "Fever",
+            "Fatigue"
+          ]
+        },
+        {
+          "name": "Lymphoma",
+          "symptoms": [
+            "Enlarged Lymph Nodes",
+            "Fever",
+            "Fatigue"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Psychiatry",
+      "diseases": [
+        {
+          "name": "Depression",
+          "symptoms": [
+            "Low Mood",
+            "Loss of Interest",
+            "Sleep Problems"
+          ]
+        },
+        {
+          "name": "Anxiety Disorder",
+          "symptoms": [
+            "Nervousness",
+            "Worry",
+            "Heart Palpitations"
+          ]
+        },
+        {
+          "name": "Dementia",
+          "symptoms": [
+            "Memory Loss",
+            "Cognitive Impairment",
+            "Behavioral Abnormalities"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Orthopedics",
+      "diseases": [
+        {
+          "name": "Arthritis",
+          "symptoms": [
+            "Joint Pain",
+            "Joint Swelling",
+            "Limited Movement"
+          ]
+        },
+        {
+          "name": "Fracture",
+          "symptoms": [
+            "Severe Pain",
+            "Swelling",
+            "Deformity"
+          ]
+        },
+        {
+          "name": "Osteoporosis",
+          "symptoms": [
+            "Increased Risk of Fractures",
+            "Back Pain",
+            "Height Reduction"
+          ]
+        },
+        {
+          "name": "Carpal Tunnel Syndrome",
+          "symptoms": [
+            "Hand Numbness",
+            "Tingling Sensation",
+            "Weakness in Hand"
+          ]
+        },
+        {
+          "name": "Rotator Cuff Injury",
+          "symptoms": [
+            "Shoulder Pain",
+            "Weakness in Arm",
+            "Limited Shoulder Movement"
+          ]
+        },
+        {
+          "name": "Knee Osteoarthritis",
+          "symptoms": [
+            "Knee Pain",
+            "Stiffness",
+            "Swelling"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Otolaryngology (ENT)",
+      "diseases": [
+        {
+          "name": "Sinusitis",
+          "symptoms": [
+            "Nasal Congestion",
+            "Facial Pressure",
+            "Mucus Secretion"
+          ]
+        },
+        {
+          "name": "Ear Infection",
+          "symptoms": [
+            "Ear Pain",
+            "Hearing Loss",
+            "Ear Discharge"
+          ]
+        },
+        {
+          "name": "Nasopharyngeal Cancer",
+          "symptoms": [
+            "Nasal Congestion",
+            "Sore Throat",
+            "Cough"
+          ]
+        },
+        {
+          "name": "Conjunctivitis",
+          "symptoms": [
+            "Red Eyes",
+            "Itchy Eyes",
+            "Increased Secretions"
+          ]
+        },
+        {
+          "name": "Ulcerative Oral Stomatitis",
+          "symptoms": [
+            "Mouth Pain",
+            "Ulcers",
+            "Appetite Loss"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Urology",
+      "diseases": [
+        {
+          "name": "Prostatitis",
+          "symptoms": [
+            "Frequent Urination",
+            "Urgent Urination",
+            "Painful Urination"
+          ]
+        },
+        {
+          "name": "Urinary Tract Infection",
+          "symptoms": [
+            "Frequent Urination",
+            "Urgent Urination",
+            "Painful Urination"
+          ]
+        },
+        {
+          "name": "Cystitis",
+          "symptoms": [
+            "Frequent Urination",
+            "Urgent Urination",
+            "Painful Urination"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Gynecology",
+      "diseases": [
+        {
+          "name": "Endometriosis",
+          "symptoms": [
+            "Menstrual Pain",
+            "Irregular Periods",
+            "Pelvic Discomfort"
+          ]
+        },
+        {
+          "name": "Polycystic Ovary Syndrome (PCOS)",
+          "symptoms": [
+            "Irregular Periods",
+            "Excessive Hair Growth",
+            "Acne"
+          ]
+        },
+        {
+          "name": "Ovarian Cysts",
+          "symptoms": [
+            "Pelvic Pain",
+            "Bloating",
+            "Irregular Menstruation"
+          ]
+        },
+        {
+          "name": "Vaginal Infections",
+          "symptoms": [
+            "Itching",
+            "Unusual Discharge",
+            "Pain During Intercourse"
+          ]
+        },
+        {
+          "name": "Dysmenorrhea",
+          "symptoms": [
+            "Abdominal Pain",
+            "Back Pain",
+            "Headache"
+          ]
+        },
+        {
+          "name": "Breast Cancer",
+          "symptoms": [
+            "Breast Lump",
+            "Nipple Discharge",
+            "Skin Changes"
+          ]
+        },
+        {
+          "name": "Uterine Fibroids",
+          "symptoms": [
+            "Irregular Menstruation",
+            "Pelvic Pain",
+            "Frequent Urination"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Ophthalmology",
+      "diseases": [
+        {
+          "name": "Cataract",
+          "symptoms": [
+            "Blurred Vision",
+            "Dizziness",
+            "Light Sensitivity"
+          ]
+        },
+        {
+          "name": "Conjunctivitis",
+          "symptoms": [
+            "Red Eyes",
+            "Itchy Eyes",
+            "Increased Secretions"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Infectious Diseases",
+      "diseases": [
+        {
+          "name": "Hepatitis",
+          "symptoms": [
+            "Fatigue",
+            "Jaundice",
+            "Abdominal Pain"
+          ]
+        },
+        {
+          "name": "Pneumonia",
+          "symptoms": [
+            "Fever",
+            "Cough",
+            "Rapid Breathing"
+          ]
+        },
+        {
+          "name": "Food Poisoning",
+          "symptoms": [
+            "Abdominal Pain",
+            "Vomiting",
+            "Diarrhea"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Cardiology",
+      "diseases": [
+        {
+          "name": "Hypertension",
+          "symptoms": [
+            "Headache",
+            "Dizziness",
+            "Blurred Vision"
+          ]
+        },
+        {
+          "name": "Arrhythmia",
+          "symptoms": [
+            "Palpitations",
+            "Chest Pain",
+            "Dizziness"
+          ]
+        },
+        {
+          "name": "Heart Disease",
+          "symptoms": [
+            "Chest Pain",
+            "Shortness of Breath",
+            "Nausea"
+          ]
+        },
+        {
+          "name": "Pericarditis",
+          "symptoms": [
+            "Chest Pain",
+            "Rapid Breathing",
+            "Fever"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Dentistry",
+      "diseases": [
+        {
+          "name": "Tooth Decay",
+          "symptoms": [
+            "Toothache",
+            "Sensitivity to Hot or Cold",
+            "Visible Holes in Teeth"
+          ]
+        },
+        {
+          "name": "Gingivitis",
+          "symptoms": [
+            "Bleeding Gums",
+            "Swollen Gums",
+            "Bad Breath"
+          ]
+        },
+        {
+          "name": "Oral Cancer",
+          "symptoms": [
+            "Mouth Sores",
+            "Persistent Mouth Pain",
+            "Difficulty Swallowing"
+          ]
+        }
+      ]
+    },
+    {
+      "clinic": "Pediatrics",
+      "diseases": [
+        {
+          "name": "Childhood Obesity",
+          "symptoms": [
+            "Weight Gain",
+            "Poor Growth",
+            "Low Energy"
+          ]
+        },
+        {
+          "name": "Asthma in Children",
+          "symptoms": [
+            "Wheezing",
+            "Coughing",
+            "Shortness of Breath"
+          ]
+        },
+        {
+          "name": "Ear Infections in Children",
+          "symptoms": [
+            "Ear Pain",
+            "Fever",
+            "Irritability"
+          ]
+        }
+      ]
+    }
+  ]
